@@ -4,6 +4,7 @@ const router = Router();
 router.post("/", async (req, res) => {
   console.log(req.body);
   try {
+    console.log("Tried ign In 🎉")
     const result = await User.findOne({
       email: req.body.email,
       password: req.body.password,
