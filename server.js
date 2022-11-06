@@ -41,7 +41,7 @@ app.use("/sendAssets", sendAssets);
 app.use("/transactions", transactions);
 app.use("/forgotPassword", forgotPassword);
 app.get("/", (req, res) => {
-  res.send("Helo User");
+  res.send("Helo User -- Dora");
 });
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
